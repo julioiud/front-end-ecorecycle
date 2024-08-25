@@ -1,0 +1,335 @@
+/* Estilos CSS aquí */
+
+:root {
+    /*Paleta de colores o funciones*/
+    ---green: rgb(3, 105, 3);
+    ---white: rgb(255, 255, 255);
+    ---yellow: rgb(172, 132, 2);
+    ---black: rgb(51, 51, 51);
+    ---gray: rgb(75, 75, 75);
+    ---clear_green: rgb(1, 134, 7);
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    /* Esta línea me ayuda a que el paddin no altere los px de mi página */
+}
+
+*,
+*:before,
+*:after {
+    /* Esta línea me ayuda a que el paddin no altere los px de mi página */
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient(to top, var(---green) 50%, var(--blanco) 50%); */
+    /* Me ayuda a darle color de fondo a la página, luciendo un degradado to top */
+}
+
+header {
+    text-align: center;
+}
+
+
+/* Sirve para decir que la parte contenida en el header quede centrado */
+
+nav {
+    background-color: var(---green);
+    padding: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+/* Sirve para elegir el color del fondo de la barra de navegación, su tamaño, la alineación del texto contenido en esta y el tamaño de la fuente */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Está determinando el estilo de como están puestos los textos de la barra de navegación, además de determinar su margen y tamaño */
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+
+/* Determina como se muestran los diferentes textos contenidos el ul, además de configurar la distancia entre cada uno de ellos */
+
+nav ul li a {
+    color: var(---yellow);
+    text-decoration: none;
+}
+
+
+/* Se determina el color y la decoración del texto que está dentro de el menú de Nav(Navegación) */
+
+.hero-2 {
+    background-image: url("pictures/Fondo\ nosotros.jpg");
+    background-size: 150rem;
+    background-position: above;
+    color: var(---white);
+    padding: 11rem 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+/* Es un estilo en el que se determina el fondo de la página de Nosotros, ya que es el hero-2, por otra parte se está poniendo una imágen de fondo confugurándose su tamaño, posición de la imágen que quiere mostrarse, el color del fondo en caso de que no se superpusiera una imágen, el tamaño del back-ground con relación a la página, la alineación del contenido dentro de hero-2*/
+
+.hero {
+    background-image: url("https://live.staticflickr.com/2634/3997107170_8cb9053730_h.jpg");
+    background-size: 191rem;
+    background-position: bottom;
+    color: var(---yellow);
+    padding: 11rem 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+/* Es un estilo en el que se determina el fondo de la página de Escanear, ya que es el hero, por otra parte se está poniendo una imágen de fondo confugurándose su tamaño, posición de la imágen que quiere mostrarse, el color del fondo en caso de que no se superpusiera una imágen, el tamaño del back-ground con relación a la página, la alineación del contenido dentro de hero*/
+
+.hero-content {
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+
+/* Se determina el ancho máximo del contenido de hero y su margen */
+
+.hero content h3 {
+    max-width: 1rem;
+}
+
+
+/* Ancho máximo del estilo de letra h3 */
+
+.hero-content h2 {
+    font-size: 3.6rem;
+}
+
+
+/* Tamaño de la fuente h2 */
+
+.hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    color: var(---white);
+}
+
+
+/* Tamaño de la fuente, margen y color del estilo de letra h1 */
+
+.hero-content-2 {
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+
+/* Se determina el ancho máximo del contenido de hero-2(NOSOTROS) y su margen */
+
+.hero-content-2 h3 {
+    font-size: 1rem;
+    color: var(---white);
+}
+
+
+/* Tamaño de la fuente del estilo de letra h3 en la parte de Nosotros */
+
+.hero-content-2 h2 {
+    font-size: 3.6rem;
+    color: var(---white)
+}
+
+
+/* Tamaño de la fuente del estilo de letra h2 en la parte de Nosotros*/
+
+.hero-content-2 h1 {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    color: var(---white);
+}
+
+
+/* Tamaño de la fuente, margen y color del estilo de letra h1 de la parte de Nosotros */
+
+.btn {
+    display: inline-block;
+    background-color: var(---yellow);
+    color: var(---green);
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0.4rem;
+}
+
+
+/* Clase en la que se está definiendo un fondo en bloque que está en línea, se define el color del bloque, el color del texto que está encima del bloque, el tamaño del bloque, la decoración y el radio del borde del bloque */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+
+/* La división de un cuerpo de contenido siendo en forma de grid(parrilla), la cantidad de columnas horizontales y el espacio entre ellas*/
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 0.5rem;
+}
+
+
+/* La división de un cuerpo de contenido siendo en forma de grid(parrilla), la cantidad de columnas horizontales y el espacio entre ellas*/
+
+img {
+    max-width: 100%;
+}
+
+
+/* El ancho máximo de las imágenes puestas en el html */
+
+nav :hover {
+    color: var(---white);
+}
+
+
+/* Determina el color en el que se pone el texto puesto en la barra de Nav al poner el cursor encima de alguna de las palabras */
+
+footer {
+    background-color: var(---black);
+    color: var(---white);
+    padding: 1.6rem 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    /* font-size: 1.5rem; */
+}
+
+
+/* Determina el fondo del footer de la página, el color del texto, su tamaño respecto al resto de la página, la alineación del texto, el espacio con el fondo y su ancho */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+
+/* La división de un cuerpo de contenido siendo en forma de grid(parrilla), la cantidad de columnas horizontales y el espacio entre ellas-este es solo GRID, esto quiere decir que es la organización del contenido en la página de Nosotros en la parte del Main*/
+
+@media (min-width: 300px) {
+    .hero-content-2 h3 {
+        font-size: 1.5rem;
+        color: var(---white);
+    }
+    /* Tamaño de la fuente del estilo de letra h3 en la parte de Nosotros */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 8rem;
+    }
+    .hero {
+        background-image: url("https://live.staticflickr.com/2634/3997107170_8cb9053730_h.jpg");
+        background-size: 191rem;
+        background-position: bottom;
+        color: var(---yellow);
+        padding: 16rem 0;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    /* Es un estilo en el que se determina el fondo de la página de Escanear, ya que es el hero, por otra parte se está poniendo una imágen de fondo confugurándose su tamaño, posición de la imágen que quiere mostrarse, el color del fondo en caso de que no se superpusiera una imágen, el tamaño del back-ground con relación a la página, la alineación del contenido dentro de hero*/
+}
+
+
+/* Media se utiliza para definir cambios que se deben determinar dependiendo de lo que el programador necesite desde los pixeles mínimos de una pantalla, haciendo el sitio web adaptable a las diferentes pantallas(RESPONSIVE) */
+
+@media (min-width: 768px) {
+    .hero-content-2 h3 {
+        font-size: 1.2rem;
+        color: var(---white);
+    }
+    /* Tamaño de la fuente del estilo de letra h3 en la parte de Nosotros */
+    .hero-content-2 h1 {
+        font-size: 3rem;
+        margin-bottom: 5rem;
+        color: var(---white);
+    }
+    /* Tamaño de la fuente, margen y color del estilo de letra h1 de la parte de Nosotros */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10rem;
+    }
+    /* La división de un cuerpo de contenido siendo en forma de grid(parrilla), la cantidad de columnas horizontales y el espacio entre ellas-este es solo GRID, esto quiere decir que es la organización del contenido en la página de Nosotros en la parte del Main*/
+    .hero {
+        background-image: url("https://live.staticflickr.com/2634/3997107170_8cb9053730_h.jpg");
+        background-size: 210rem;
+        background-position: bottom;
+        color: var(---yellow);
+        padding: 42rem 0;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    /* Es un estilo en el que se determina el fondo de la página de Escanear, ya que es el hero, por otra parte se está poniendo una imágen de fondo confugurándose su tamaño, posición de la imágen que quiere mostrarse, el color del fondo en caso de que no se superpusiera una imágen, el tamaño del back-ground con relación a la página, la alineación del contenido dentro de hero*/
+}
+
+
+/* Media se utiliza para definir cambios que se deben determinar dependiendo de lo que el programador necesite desde los pixeles mínimos de una pantalla, haciendo el sitio web adaptable a las diferentes pantallas(RESPONSIVE) */
+
+@media (min-width: 1140px) {
+    .hero-content-2 h3 {
+        font-size: 2rem;
+        color: var(---white);
+    }
+    /* Tamaño de la fuente del estilo de letra h3 en la parte de Nosotros */
+    .hero-content-2 h1 {
+        font-size: 3rem;
+        margin-bottom: 5rem;
+        color: var(---white);
+    }
+    /* Tamaño de la fuente, margen y color del estilo de letra h1 de la parte de Nosotros */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10rem;
+    }
+    /* La división de un cuerpo de contenido siendo en forma de grid(parrilla), la cantidad de columnas horizontales y el espacio entre ellas-este es solo GRID, esto quiere decir que es la organización del contenido en la página de Nosotros en la parte del Main*/
+    .hero {
+        background-image: url("https://live.staticflickr.com/2634/3997107170_8cb9053730_h.jpg");
+        background-size: 210rem;
+        background-position: bottom;
+        color: var(---yellow);
+        padding: 29rem 0;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    /* Es un estilo en el que se determina el fondo de la página de Escanear, ya que es el hero, por otra parte se está poniendo una imágen de fondo confugurándose su tamaño, posición de la imágen que quiere mostrarse, el color del fondo en caso de que no se superpusiera una imágen, el tamaño del back-ground con relación a la página, la alineación del contenido dentro de hero*/
+    .hero-2 {
+        background-image: url("pictures/icono.jpg");
+        background-size: 195rem;
+        background-position: above;
+        color: var(---white);
+        padding: 11rem 0;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    /* Es un estilo en el que se determina el fondo de la página de Nosotros, ya que es el hero-2, por otra parte se está poniendo una imágen de fondo confugurándose su tamaño, posición de la imágen que quiere mostrarse, el color del fondo en caso de que no se superpusiera una imágen, el tamaño del back-ground con relación a la página, la alineación del contenido dentro de hero-2*/
+}
+
+
+/* Media se utiliza para definir cambios que se deben determinar dependiendo de lo que el programador necesite desde los pixeles mínimos de una pantalla, haciendo el sitio web adaptable a las diferentes pantallas(RESPONSIVE) */
+
+
+/* Media se utiliza para definir cambios que se deben determinar dependiendo de lo que el programador necesite desde los pixeles mínimos de una pantalla, haciendo el sitio web adaptable a las diferentes pantallas(RESPONSIVE) */
