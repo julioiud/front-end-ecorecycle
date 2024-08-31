@@ -1,6 +1,6 @@
 /* Estilos CSS aquí */
 
-:root {
+ :root {
     /*Paleta de colores o funciones*/
     ---green: rgb(3, 105, 3);
     ---white: rgb(255, 255, 255);
@@ -38,44 +38,12 @@ header {
 
 /* Sirve para decir que la parte contenida en el header quede centrado */
 
-nav {
-    background-color: var(---green);
-    padding: 3rem;
-    text-align: center;
-    font-size: 2rem;
-}
-
-
-/* Sirve para elegir el color del fondo de la barra de navegación, su tamaño, la alineación del texto contenido en esta y el tamaño de la fuente */
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-/* Está determinando el estilo de como están puestos los textos de la barra de navegación, además de determinar su margen y tamaño */
-
-nav ul li {
-    display: inline;
-    margin-right: 1rem;
-}
-
-
-/* Determina como se muestran los diferentes textos contenidos el ul, además de configurar la distancia entre cada uno de ellos */
-
-nav ul li a {
-    color: var(---yellow);
-    text-decoration: none;
-}
-
 
 /* Se determina el color y la decoración del texto que está dentro de el menú de Nav(Navegación) */
 
 .hero-2 {
-    background-image: url("pictures/Fondo\ nosotros.jpg");
-    background-size: 150rem;
+    background-image: url("pictures/fondonosotros.jpg");
+    background-color: rgb(39, 38, 0);
     background-position: above;
     color: var(---white);
     padding: 11rem 0;
@@ -127,6 +95,10 @@ nav ul li a {
     color: var(---white);
 }
 
+.hero-content button {
+    font-size: 3rem;
+}
+
 
 /* Tamaño de la fuente, margen y color del estilo de letra h1 */
 
@@ -140,7 +112,7 @@ nav ul li a {
 
 .hero-content-2 h3 {
     font-size: 1rem;
-    color: var(---white);
+    color: var(---black);
 }
 
 
@@ -148,7 +120,7 @@ nav ul li a {
 
 .hero-content-2 h2 {
     font-size: 3.6rem;
-    color: var(---white)
+    color: var(---black)
 }
 
 
@@ -157,7 +129,7 @@ nav ul li a {
 .hero-content-2 h1 {
     font-size: 2rem;
     margin-bottom: 5rem;
-    color: var(---white);
+    color: var(---black);
 }
 
 
@@ -317,7 +289,7 @@ footer {
     }
     /* Es un estilo en el que se determina el fondo de la página de Escanear, ya que es el hero, por otra parte se está poniendo una imágen de fondo confugurándose su tamaño, posición de la imágen que quiere mostrarse, el color del fondo en caso de que no se superpusiera una imágen, el tamaño del back-ground con relación a la página, la alineación del contenido dentro de hero*/
     .hero-2 {
-        background-image: url("pictures/icono.jpg");
+        background-image: url("pictures/fondonosotros.jpg");
         background-size: 195rem;
         background-position: above;
         color: var(---white);
