@@ -1,0 +1,17 @@
+#tab-main {
+    background-color: #024E50;
+    color: white;
+
+    font-weight: bold;
+}
+
+#tab-main a{
+    color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: #098680;
+}
+
+

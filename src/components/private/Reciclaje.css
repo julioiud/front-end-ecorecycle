@@ -1,0 +1,30 @@
+.btn-primary {
+    background-color: #098680;
+    color: white;
+}
+
+.btn-primary :active :focus{
+    background-color: #024E50;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #024E50;
+    color: white;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: #024E50;
+}
+
+.badge {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    display: inline-block;
+    min-width: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }

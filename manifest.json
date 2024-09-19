@@ -1,0 +1,75 @@
+{
+  "app": {
+    "background": {
+    }
+  },
+  "manifest_version": 2,
+  "version": "1.0",
+ "name": "Eco-recycle App",
+ "short_name": "Ecorecycle",
+ "display": "standalone",
+ "start_url": "/",
+ "background_color": "green",
+ "default_locale": "es",
+ "autor" : "Colegio San Jose LaSalle - Medellin",
+ "icons": [
+  {
+   "src": "\/icons\/android-icon-36x36.png",
+   "sizes": "36x36",
+   "type": "image\/png",
+   "density": "0.75"
+  },
+  {
+   "src": "\/icons\/android-icon-48x48.png",
+   "sizes": "48x48",
+   "type": "image\/png",
+   "density": "1.0"
+  },
+  {
+   "src": "\/icons\/android-icon-72x72.png",
+   "sizes": "72x72",
+   "type": "image\/png",
+   "density": "1.5"
+  },
+  {
+   "src": "\/icons\/android-icon-96x96.png",
+   "sizes": "96x96",
+   "type": "image\/png",
+   "density": "2.0"
+  },
+  {
+   "src": "\/icons\/android-icon-144x144.png",
+   "sizes": "144x144",
+   "type": "image\/png",
+   "density": "3.0"
+  },
+  {
+   "src": "\/icons\/android-icon-192x192.png",
+   "sizes": "192x192",
+   "type": "image\/png",
+   "density": "4.0"
+  },
+  {
+    "src": "\/icons\/apple-icon-152x152.png",
+    "sizes": "152x152",
+    "type": "image\/png",
+    "density": "4.0"
+   }
+ ],
+ "screenshots": [
+    {
+     "src": "\/screen-eco.png",
+      "sizes": "412x864",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Eco-recycle"
+    },
+    {
+       "src": "\/screen-eco-d.png",
+        "sizes": "1597x950",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Eco-recycle"
+    }
+ ]
+}

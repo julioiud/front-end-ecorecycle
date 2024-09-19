@@ -1,0 +1,54 @@
+.nav-link {
+    color: #024E50;
+    font-size: medium;
+}
+
+#qr-canvas-visible{
+    margin: 1px;
+    width: 350px;
+    height: auto;
+    max-height: 350px;
+}
+  .badge {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    display: inline-block;
+    min-width: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .increase {
+    animation: increaseAnimation 0.3s forwards;
+  }
+  
+  .decrease {
+    animation: decreaseAnimation 0.3s forwards;
+  }
+  
+  @keyframes increaseAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(2.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes decreaseAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.7);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

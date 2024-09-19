@@ -1,0 +1,15 @@
+#nav-main {
+    background-color: #024E50;
+    color: white;
+    font-weight: bold;
+}
+
+#btn-toggle{
+    color: white;
+    background-color: #fbfbfb;
+}
+
+#titulo{
+    font-size: larger;
+    font-weight: 600;
+}
