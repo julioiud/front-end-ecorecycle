@@ -167,7 +167,7 @@ export default function Ubicaciones() {
             scaledSize: new maps.Size(36, 36)
           }
         })
-        const url = `https://www.google.com/maps/dir/?api=1&origin=${latitud}%2C${longitud}&destination=${can.latitud}%2C${can.longitud}`
+        const url = `https://www.google.com/maps/dir/?api=1&origin=${latitud},${longitud}&destination=${can.latitud},${can.longitud}`
         marker.addListener('click', () => {
           window.open(url, '_blank'); // Abrir la URL en una nueva pestaña
         })
